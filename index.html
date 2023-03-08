@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- ==============================Animation Css=================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- ==============================Bootstrap Icon=================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- ==============================Bootstrap CSS=================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- ==============================Style Sheet=================== -->
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="login.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ============================Header================= -->
+  <header>
+    <div class="top-bg">
+      <div class="container">
+
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-4 text-lg-start text-center">
+            <div class="sub-navigation">
+              <ul class="d-inline-block p-0 m-0">
+                <li class="d-inline-block">
+                  <a class="sub-link text-decoration-none px-2 border-end border-2" href=""><i
+                      class="bi bi-telephone-fill"></i> 3 045 224 48 00</a>
+                </li>
+                <li class="d-inline-block">
+                  <div class="dropdown ">
+  
+                    <a class="sub-link dropbtn border-end border-2 text-decoration-none  px-2">Language<i
+                        class="bi bi-caret-down-fill"></i></a>
+  
+  
+                    <div class="dropdown-content">
+  
+                      <ul class="list-unstyled">
+                        <li class="py-2 border-bottom border-1 border-dark">
+                          <a class="sub-link  text-decoration-none pb-2 w-100" href="#">English</a>
+                        </li>
+                        <li class="py-2">
+                          <a class="sub-link text-decoration-none" href="#">France</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-inline-block">
+                  <a class="sub-link px-2 text-decoration-none" href="">USD, $</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-lg-0 ">
+            <div class="top-logo d-flex justify-content-center">
+              <img  src="Images/logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 d-lg-block d-none">
+            <div class="socail-icon d-flex justify-content-end align-items-center ">
+
+              <button type="button" class="user-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fs-2 bi bi-person sub-link"></i></a>
+              
+              </button>
+              
+              <span class="mx-2">
+                <div class="col-md-3 d-flex justify-content-start">
+                  <div class="pt-3 pl-0 ps-0 pe-0">
+                    <i class="fs-4 bi bi-cart fs-2 ml-md-5"></i>
+                  </div>
+                  <span class="badge bi-badge-ad-fill"></span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <nav class="navbar navbar-expand-lg navbar-light p-0   ">
+      <div class="container-fluid ">
+        <div class="socail-icon d-flex justify-content-end align-items-center d-lg-none">
+
+          <span class="mx-2"><a class="sub-link" href=""><i class="fs-2 bi bi-person"></i></a></span>
+          <span class="mx-2">
+            <div class="dropdown">
+              <a class="sub-link text-decoration-none px-2"><i class="fs-4 bi bi-cart"></i>
+                <span class="translate-middle badge rounded-pill">
+                  0
+                </span>
+              </a>
+
+              <div class="cart-content">
+                <div class="cart-pera">
+                  <p>No products in the cart.</p>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto menu-bar">
+
+            <li class="mx-auto"><a class="nav-link mx-4 active" aria-current="page" href="index.html">HOME</a></li>
+            <li class="mx-auto"><a class="nav-link mx-4 " href="about.html">ABOUT US</a></li>
+            <li class="nav-item dropdown dropdown-hover position-static mx-auto">
+              <a class="nav-link  mx-4" href="products.html" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                PRODUCTS <i class="bi bi-caret-down-fill"></i></a>
+              <!-- Dropdown menu -->
+              <div class="dropdown-menu  dropdown-head" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                    border-top-right-radius: 0;">
+                <div class="container p-0">
+                  <div class="row ">
+                    <div class="col-md-12 col-lg-3 mb-3 mb-lg-0 w-100">
+                      <ul class="list-unstyled m-0 p-0 text-center">
+                        <li class="mb-2 product-items"><a class="" href="wedding.html">Wedding Cards</a></li>
+                        <li class="mb-2 product-items"><a class="" href="birday.html">Birthday Cards</a></li>
+                        <li class="mb-2 product-items "><a class="px-3" href="Anniversary.html">Anniversary Cards</a></li>
+                        <li class="mb-2 product-items"><a class="" href="sorry-card.html">Sorry Cards</a></li>
+                        <li class=" product-items"><a class="" href="mom-day-crd.html">Mother Day Cards</a></li>
+                      </ul>
+                    
+                    </div>
+               
+                  </div>
+                </div>
+              </div>
+            </li>
+            </ul>
+            <!-- Left links -->
+            <li class="mx-auto"><a class="nav-link mx-4 " href="contact-us.html">CONTACT US</a></li>
+          
+            
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+    </nav>
+  </header>
+
+
+  <!-- =================================BANNER SLIDER======================================== -->
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active position-relative">
+        <div class="carousal-img">
+        <img src="Images/banner-1.jpg" class="d-block w-100 img" alt="...">
+        </div>
+        <div class="carousel-content ">
+          <h1 class="animate__animated animate__lightSpeedInLeft animtion-duration-2s">WEDDING INVITATIONS</h1>
+          <p class="poppin fs-6 fw-light animate__animated animate__fadeInUp animate__delay-1s">Loking for paper? shop
+            our printed <br> wedding collection exclussively at paper </p>
+          <img class="animate__animated animate__zoomIn animate__delay-2s d-block" src="Images/icon.png" alt="">
+          <button type="" class="shop-btn poppin animate__animated animate__zoomIn animate__delay-3s d-block"> Shop Now!</button>
+
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <div class="carousal-img">
+        <img src="Images/banner-2.jpg" class="d-block w-100 img" alt="...">
+        </div>
+        <div class="carousel-content ">
+          <h1 class="animate__animated animate__lightSpeedInLeft animtion-duration-2s">WEDDING INVITATIONS</h1>
+          <p class="poppin fs-6 fw-light animate__animated animate__fadeInUp animate__delay-1s">Loking for paper? shop
+            our printed <br> wedding collection exclussively at paper </p>
+          <img class="animate__animated animate__zoomIn animate__delay-2s d-block" src="Images/icon.png" alt="">
+          <button type="" class="shop-btn poppin animate__animated animate__zoomIn animate__delay-3s d-block"> Shop
+            Now!</button>
+
+        </div>
+      </div>
+      <div class="carousel-item position-relative">
+        <div class="carousal-img">
+        <img src="Images/banner-3.jpg" class="d-block w-100 img" alt="...">
+        </div>
+        <div class="carousel-content ">
+          <h1 class="animate__animated  animate__lightSpeedInLeft animtion-duration-2s">WEDDING INVITATIONS</h1>
+          <p class="poppin fs-6 fw-light animate__animated animate__fadeInUp animate__delay-1s">Loking for paper? shop
+            our printed <br> wedding collection exclussively at paper </p>
+          <img class="animate__animated animate__zoomIn animate__delay-2s d-block" src="Images/icon.png" alt="">
+          <button type="" class="shop-btn poppin animate__animated animate__zoomIn animate__delay-3s d-block"> Shop
+            Now!</button>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev  type=" button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+      <i class="bi bi-chevron-left icon-left text-secondary fs-1"></i>
+
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+      <i class="bi bi-chevron-right  icon-right fs-1 text-secondary"></i>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- =================================ABOUTS US======================================== -->
+
+  <section class="about-us">
+    <div class="container">
+      <div class="row py-5 mt-5">
+        <div  class="col-lg-6 ">
+          <div  data-aos="fade-right" class="about-content p-xl-5">
+            <h2><span class="head-bg  head mb-3">ABOUT</span>NEW HIGHT SHOP</h2>
+            
+            <img class=" mb-3 d-block" src="Images/icon.png" alt="">
+            <p class="poppin text-dark mb-4  fw-normal ">All of our product is designed, developed, and deployed
+              in-­house. We’re serious about what we do, how we do it, and making sure we’re scaling quickly and
+              smartly.
+              Millions of people use our elegant technologies and expressive designs to celebrate their most important
+              life occasions. lorem</p>
+            <a class="shop-btn poppin text-decoration-none " href="about.html">Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-5">
+          <div class="about-img " data-aos="fade-left">
+            <img class=" w-100" src="Images/about-us.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =======================Infographic============================ -->
+
+  <section class="infographic ">
+    <h2 data-aos="fade-in" class="text-center"><span class="head-bg head">Our</span> SERVICES</h2>
+
+    <div class="" style="background-color: #F2F2F2;">
+      <div class="container">
+  
+        <div class="row my-5 py-4">
+          <div data-aos="fade-in"  data-aos-delay="250"  data-aos-duration="1000" class="col-xl-3 col-lg-6 col-md-6   position-relative d-flex justify-content-center">
+            <div class="info-wrp"></div>
+            <div class="info-inner-wrp">
+              <div class="info-inner">
+                <div class="step-wrp">
+                  <h4 class="text-center py-2 poppin text-white">01 <br> STEP</h4>
+                </div>
+                <div class="info-content raleway">
+                  <h4 class="text-secondary raleway">Lorem, ipsum.</h4>
+                  <p class="raleway m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam aliquid consequatur nulla quod repudiandae.</p>
+                </div>
+                <div class="info-icon d-flex justify-content-center py-2 fs-3 text-white">
+                  <i class="bi bi-search"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-in"  data-aos-delay="500"  data-aos-duration="2000" class="col-xl-3 col-lg-6 col-md-6 position-relative  d-flex justify-content-center">
+            <div style="background-color: #65CFCB;" class="info-wrp"></div>
+            <div  class="info-inner-wrp">
+              <div class="info-inner">
+                <div style="background-color: #65CFCB;" class="step-wrp">
+                  <h4 class="text-center py-2 poppin text-white">01 <br> STEP</h4>
+
+                </div>
+                <div class="info-content raleway">
+                  
+                <h4 class="text-secondary raleway">Lorem, ipsum.</h4>
+                  <p class="raleway m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam aliquid consequatur nulla quod repudiandae.</p>
+                </div>
+                <div style="background-color: #65CFCB;" class="info-icon d-flex justify-content-center py-2 fs-3 text-white">
+                  <i class="bi bi-lightbulb"></i>
+                 
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div data-aos="fade-in" data-aos-delay="750"  data-aos-duration="3000" class="col-xl-3 col-lg-6 col-md-6 position-relative  d-flex justify-content-center">
+            <div style="background-color: #0A697D;" class="info-wrp"></div>
+            <div  class="info-inner-wrp">
+              <div class="info-inner">
+                <div style="background-color: #0A697D;" class="step-wrp">
+                  <h4 class="text-center py-2 poppin text-white">01 <br> STEP</h4>
+
+                </div>
+                <div class="info-content raleway">
+                  
+                <h4 class="text-secondary raleway">Lorem, ipsum.</h4>
+                  <p class="raleway m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam aliquid consequatur nulla quod repudiandae.</p>
+                </div>
+                <div style="background-color: #0A697D;" class="info-icon d-flex justify-content-center py-2 fs-3 text-white">
+                 
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+          <div data-aos="fade-in" data-aos-delay="1000"  data-aos-duration="4000" class="col-xl-3 col-lg-6 col-md-6 position-relative  d-flex justify-content-center">
+            <div style="background-color: #0D89FB" class="info-wrp"></div>
+            <div  class="info-inner-wrp">
+              <div class="info-inner">
+                <div style="background-color: #0D89FB" class="step-wrp">
+                  <h4 class="text-center py-2 poppin text-white">01 <br> STEP</h4>
+
+                </div>
+                <div class="info-content raleway">
+                  
+                <h4 class="text-secondary raleway">Lorem, ipsum.</h4>
+                  <p class="raleway m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam aliquid consequatur nulla quod repudiandae.</p>
+                </div>
+                <div style="background-color: #0D89FB" class="info-icon d-flex justify-content-center py-2 fs-3 text-white">
+                  <i class="bi bi-bullseye"></i></div>
+              </div>
+            </div>
+          
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   
+  </section>
+ 
+
+
+
+
+
+  <!-- ===============================WBP========================= -->
+  <section class="wbp-wrp" >
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <h2 data-aos="fade-in"  class=""><span class="head-bg head">WHY</span>CHOOSE US</h2>
+        </div>
+      </div>
+      <div class="row ">
+        <div  class="col-12">
+          <div data-aos="fade-in" data-aos-delay="500" class="  border-bottom border-2 pb-4">
+              <img class="mx-auto  d-block" src="Images/icon.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div data-aos="fade-in" data-aos-delay="750" class="col-12 mx-auto text-center w-75">
+          <p class="lead poppin">We are dedicated in helping make each bride’s dream day come true. We are
+            committed to removing all the hassles when buying wedding stationery.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div data-aos="fade-in" data-aos-delay="500" class="wbp-content-wrp mb-5">
+      <div class="container">
+        <div  data-aos="fade-in" data-aos-delay="1000" class="row  wbp-content-wrp-bg">
+          <div class="col-lg-3 col-md-6">
+
+            <div class="wbp-content">
+              <div class="icon display-2">
+                
+            <lord-icon
+              src="https://cdn.lordicon.com/jvucoldz.json"
+              trigger="hover"
+              colors="primary:#ffffff,secondary:#ffffff"
+              style="width:150px;height:150px">
+            </lord-icon>
+              </div>
+
+              <h2>700+ <br> TEMPLATES</h2>
+              <p class="poppin fs-5 text-secondary ">With dozens of templates, you can easily create your own wedding
+                card for any style & theme.</p>
+            </div>
+          </div>
+
+          <div    class="col-lg-3 col-md-6">
+
+            <div class="wbp-content ">
+              <div class="icon display-2">
+                <lord-icon
+              src="https://cdn.lordicon.com/sbiheqdr.json"
+              trigger="hover"
+              colors="primary:#ffffff,secondary:#ffffff"
+              style="width:150px;height:150px">
+              </lord-icon>
+              </div>
+
+              <h2>POWERFUL <br> TOOL</h2>
+              <p class="poppin fs-5 text-secondary">Powerful design and editing tools enable you to achieve high-quality
+                results without any hassles.</p>
+            </div>
+          </div>
+
+          <div data-aos="fade-in" class="col-lg-3 col-md-6 ">
+
+            <div class="wbp-content ">
+              <div class="icon display-2">
+                <lord-icon
+            src="https://cdn.lordicon.com/qhgmphtg.json"
+            trigger="hover"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style="width:150px;height:150px">
+            </lord-icon>
+              </div>
+
+              <h2>EASY <br> TO USE</h2>
+              <p class="poppin fs-5 text-secondary text">With only a few clicks, anyone can create professional
+                artworks, even without any experience</p>
+            </div>
+          </div>
+
+          <div data-aos="fade-in" class="col-lg-3 col-md-6 ">
+
+            <div class="wbp-content">
+              <div class="icon display-2">
+                <lord-icon
+          src="https://cdn.lordicon.com/moscwhoj.json"
+          trigger="hover"
+          colors="primary:#ffffff,secondary:#ffffff"
+          style="width:150px;height:150px">
+          </lord-icon>
+              </div>
+
+              <h2>NO <br> REGISTRATION</h2>
+              <p class="poppin fs-5 text-secondary text">Try it for free! No download or registration required;
+                effortless and time-saving!</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  
+
+
+
+
+
+  <!-- ============================Our Services======================== -->
+
+  <section class="our-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-wrp">
+            <div class="service-img">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-wrp">
+            <div class="service-img">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-wrp">
+            <div class="service-img">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer" >
+    <div class="container">
+      <div class="row px-5 pt-5">
+        <div class="col-xl-4">
+          <h2 style="border-bottom: 3px solid #FFA502;" class=" d-inline-block pb-1">Cards Special</h2>
+          <p class="foter-pera">Lorem ipsum dolor  amet consectetur adipisicing elit. Corrupti non dignissimos unde! Voluptatum officia ipsum praesentium eum cupiditate illum perspiciatis?</p>
+        </div>
+        <div class="col-xl-2 col-md-4 col-sm-6 text-center">
+          <h3 style="border-bottom: 3px solid #FFA502;" class=" d-inline-block pb-1">Products</h3>
+          <ul class="list-unstyled ">
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="wedding.html">Wedding Cards</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="birday.html">Birthday Cards</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="Anniversary.html">Anniversary Cards</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="sorry-card.html">Sorry Cards</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="mom-day-crd.html">Mother Day Cards</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-4 col-sm-6 text-center">
+          <h3 style="border-bottom: 3px solid #FFA502;" class=" d-inline-block pb-1">Pages</h3>
+          <ul class="list-unstyled ">
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="index.html">Home</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="">About Us</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="contact-us.html">Contact Us</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="">Product Page</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-4 col-sm-6 text-center">
+          <h3 style="border-bottom: 3px solid #FFA502;" class="d-inline-block pb-1">Made By</h3>
+          <ul class="list-unstyled ">
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="">Fahad Manzoor</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="">Iftikhar Khan</a></li>
+            <li class="mb-1"><a class="text-decoration-none footer-color poppin" href="">Waqas Ahmed</a></li>
+         
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-12 col-sm-6 text-center">
+          <div class="footer-icon">
+            <span class="mx-2"><a class="text-white" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></span>
+            <span class="mx-2"><a class="text-white" href="https://twitter.com"><i class="bi bi-twitter"></i></a></span>
+            <span class="mx-2"><a class="text-white" href="https://www.instagram.com"><i class="bi bi-instagram"></i></a></span>
+            <span class="mx-2"><a class="text-white" href="https://www.youtube.com"><i class="bi bi-youtube"></i></a></span>
+            
+          </div>
+          <p class="foter-pera">Lorem ipsum dolor sit amet.</p>
+         
+        </div>
+      </div>
+      <div>
+        <div class="col-12 text-center">
+          <div class="copy-right">
+            <p style="border-top: 3px solid #FFA502;" class="py-2 m-0 raleway fw-normal ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus nihil ducimus dolor deleniti? Laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+
+  
+  
+  <!-- ===================================MODAL================================= -->
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade bg-transparent" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+    
+        <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <section class="login">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="login-wrp">
+                          
+                          <div class="login-content">
+                              <div class="login-img">
+                                  <img  src="Images/login.png" alt="">
+                              </div>
+                              <h2 class="text-center">Log In</h2>
+      
+                              <form action="">
+                                  <div class="name">
+                                      <div class="login-icon">
+                                          <i class="bi bi-person"></i>
+                                      </div>
+                                          <input placeholder="user name" class="w-100" type="text" required>
+                                      </div>
+          
+                                      <div class="name mt-3">
+                                      <div class="login-icon">
+                                        <i class="bi bi-lock-fill"></i> 
+                                      </div>
+                                          <input placeholder="Password"  class="w-100" type="password" required>
+                                      </div>  
+          
+                                      <div class="login-btn">
+                                          <button type="submit">Log In</button>
+                                      </div>
+                              </form>
+                                 
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+       
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+
+  <!-- ==============================Bootstrap JS=================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+   
+
+     <!-- ===============================Animation Icon========================= -->
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    
+
+
+
+  <!-- ==============================JQurey=================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      offset: 120,
+      duration:1000,
+      once: true,
+     
+    });
+  </script>
+  
+ 
+</body>
+
+</html>
